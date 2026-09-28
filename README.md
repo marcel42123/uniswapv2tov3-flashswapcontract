@@ -6,3 +6,10 @@ This repository is a technical implementation demonstrating how to utilize the U
 
 image of the swaps in a single block:
 <img width="1303" height="190" alt="image" src="https://github.com/user-attachments/assets/031c37a3-ddc0-43aa-90c0-dff696c5d044" />
+
+why flash swap?
+* arbitrage require highspeed swaps to be ontop of others, to be able to complete a full swap within a single block provides a massive competitive advantage, particularly on networks with slower or variable block times.
+* using zero capital means we dont run the risk of losing capital from negative swaps and slippages.
+
+## ⚠️ Disclaimer
+This `.sol` contract is a bare-bones implementation designed purely to demonstrate core flash swap mechanics. It lacks the advanced on-chain guardrails, real-time slippage tracking, and automated balance checks required to minimize losses in a competitive environment.
